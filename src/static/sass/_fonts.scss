@@ -1,0 +1,51 @@
+@font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Open Sans Regular'), local('OpenSans-Regular'),
+            url("{{asset 'fonts/open-sans/open-sans-v17-latin-regular.woff2'}}") format('woff2'),
+            url("{{asset 'fonts/open-sans/open-sans-v17-latin-regular.woff'}}") format('woff');
+      }
+      /* open-sans-italic - latin */
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 400;
+        font-display: swap;
+        src: local('Open Sans Italic'), local('OpenSans-Italic'),
+            url("{{asset 'fonts/open-sans/open-sans-v17-latin-italic.woff2'}}") format('woff2'),
+            url("{{asset 'fonts/open-sans/open-sans-v17-latin-italic.woff'}}") format('woff');
+      }
+      /* open-sans-700 - latin */
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-display: swap;
+        src: local('Open Sans Bold'), local('OpenSans-Bold'),
+            url("{{asset 'fonts/open-sans/open-sans-v17-latin-700.woff2'}}") format('woff2'),
+            url("{{asset 'fonts/open-sans/open-sans-v17-latin-700.woff'}}") format('woff');
+      }
+      /* open-sans-700italic - latin */
+      @font-face {
+        font-family: 'Open Sans';
+        font-style: italic;
+        font-weight: 700;
+        font-display: swap;
+        src: local('Open Sans Bold Italic'), local('OpenSans-BoldItalic'),
+            url("{{asset 'fonts/open-sans/open-sans-v17-latin-700italic.woff2'}}") format('woff2'),
+            url("{{asset 'fonts/open-sans/open-sans-v17-latin-700italic.woff'}}") format('woff');
+      }
+      /* iconmoon */
+      @font-face {
+        font-family: 'icomoon';
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+        src: url("{{asset 'fonts/icomoon/icomoon.eot?aoz2mo'}}");
+        src: url("{{asset 'fonts/icomoon/icomoon.eot?aoz2mo#iefix'}}") format('embedded-opentype'),
+        url("{{asset 'fonts/icomoon/icomoon.ttf?aoz2mo'}}") format('truetype'),
+        url("{{asset 'fonts/icomoon/icomoon.woff?aoz2mo'}}") format('woff'),
+        url("{{asset 'fonts/icomoon/icomoon.svg?aoz2mo#icomoon'}}") format('svg');
+      }
